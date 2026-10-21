@@ -1,0 +1,164 @@
+body{
+    background-color:beige;
+}
+nav{
+    padding: 15px;
+    text-align: center;
+    background-color: beige;
+}
+nav a{
+    color:#4A3728;
+    text-decoration: none;
+    margin: 0 15px;
+    
+}
+nav a:hover{
+    color: #8A9A7B
+}
+
+.about{
+    color:#4A3728;
+    text-align: center;
+}
+.background-table {
+    background-color: beige;
+    padding: 20px ;
+    color:#4A3728;
+    text-align: center;
+}
+.background-table table {
+    width: 100%;
+    border-spacing: 10px;
+}
+.background-table td {
+    background-color:#4A3728;
+    color: beige;
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid #D8D0C1;
+    width: 33.33%;
+    vertical-align: top;
+    transition: 0.3s;
+    text-align: left;
+}
+.background-table td h4{
+    margin-bottom: 3px;
+}
+.background-table td p{
+    margin-top: 0;
+}
+.background-table td h3{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D6C8B5;
+    padding-bottom: 10px;
+}
+.background-table td:hover{
+    background-color: #8A9A7B;
+    
+    transform: translateY(-5px);
+}
+.portofolio {
+    color: #4A3728;
+    text-align: center;
+}
+.portofolio-gallery{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0 20px;
+    scrollbar-width: none;
+}
+.portofolio-slide {
+    flex: 0 0 250px;
+    margin: 0;
+}
+.portofolio-slide img{
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.portofolio-slide h3{
+    color: #4A3728;
+}
+.portofolio-slide:hover img{
+    outline: 1px solid #4A3728;
+
+}
+.project {
+    color: #4A3728;
+    text-align: center;
+}
+.project-table{
+    width: 100%;
+}
+.project-table td{
+    background-color:#E3E8DA;
+    padding: 20px;
+}
+.project-table td:first-child{
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+}
+.project-table td:last-child{
+    border-radius: 0 15px 15px 0;
+}
+.project-table img{
+    width: 80%;
+    height: 180px;
+    object-fit: cover;
+}
+.project-table h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.project-table p{
+    font-size: 15px;
+    text-align: left;
+}
+.project-table h4{
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+}
+.contact { 
+    background-color:#4A3728;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+.contact-table {
+    width: 30%;
+    border-spacing: 10px;
+    margin: 20px auto;
+}
+.contact-table td{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 28px;
+}
+
+.contact-table a {
+    display: block;
+    background-color: transparent;
+    color:white;
+    font-size: 18px;
+    
+}
+.contact-table a:hover{
+    color: #8A9A7B
+}
+h1{
+    color: #4A3728;
+    text-align: center;
+}
+section{
+    padding:20px 20px;
+}
+footer{
+    text-align: right;
+    color: white;
+    background-color: #4A3728;
+}
