@@ -162,3 +162,67 @@ footer{
     color: white;
     background-color: #4A3728;
 }
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 10px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 15px 10px;
+    }
+
+    .background-table table,
+    .background-table tr,
+    .background-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .background-table td {
+        margin-bottom: 10px;
+    }
+
+    .portofolio-gallery {
+        gap: 12px;
+    }
+
+    .portofolio-slide {
+        flex: 0 0 200px;
+    }
+
+    .portofolio-slide img {
+        height: 220px;
+    }
+
+    .project-table,
+    .project-table tbody,
+    .project-table tr,
+    .project-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .project-table td:first-child,
+    .project-table td:last-child {
+        border-radius: 12px;
+    }
+
+    .project-table img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-table {
+        width: 100%;
+    }
+}
